@@ -17,7 +17,7 @@ Inizializziamo l'interfaccia di comunicazione I2C alla velocità standard di 100
     Wire.begin();
     Wire.setClock(100000);
     
- Inizializziamo il dispositivo:
+ Inizializziamo l'interfaccia I2C impostando l'indirizzo del dispositivo:
  
     tempSensor.begin();       // Uses the default address (0x60) for SparkFun Thermocouple Amplifier
     
